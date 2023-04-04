@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Epilogue:400");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family-epilogue);
+    --font-family-epilogue: "Epilogue", Helvetica;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.lorem {
+    font: var(--font-family-epilogue);
+    text-align: left;
+    display: flex;
+    padding: 50px;
+    
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+.pagination .page {
+    height: 40px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255); 
+    margin: 0 1px;
+    color: #54545480;
+    border-color: #ffffff00;
+    cursor: pointer;
+    transition: .3;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    border: 1px solid;
+}
+
+.pagination .page:hover {
+    background-color: #ffffff99;
+    border: 1px solid;
+    border-color: #e6e6e6;
+    color: #b9b8b8;
+}
